@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'HOME')
+@section('title', 'COMICS')
 
 {{-- HERO INCLUDE --}}
 @section('content')
