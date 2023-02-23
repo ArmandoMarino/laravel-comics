@@ -4,7 +4,7 @@
 
 <header class="container">
     <figure id="logo-header">
-        <a href="#">
+        <a href="{{ route('home') }}">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC_Logo">
         </a>
     </figure>
