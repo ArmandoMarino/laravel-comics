@@ -12,7 +12,8 @@
 </head>
 <body>
     @include('includes.header')
-  
+    @include('includes.jumbotron')
+
 
         <main class="my-4">
             @yield('content')

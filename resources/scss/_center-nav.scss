@@ -1,0 +1,34 @@
+// CENTER NAV
+#center-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 140px;
+    background-color: $primary-blue;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+
+            list-style-type: none;
+            font-size: 10px;
+            padding: 30px;
+
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                text-transform: uppercase;
+
+                img {
+                    margin: 7px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
