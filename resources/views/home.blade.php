@@ -26,7 +26,12 @@
                 </li>
             </ul>
         </nav>
+    </header>
 
+
+        <main class="my-4">
+            <div class="container text-center">Prova main</div>
+        </main>
 
 
         {{-- FOOTER --}}
@@ -99,8 +104,8 @@
     
             </section>
         </footer>
-    </template>
-    </header>
+   
+    
 
 </body>
 </html>
