@@ -18,8 +18,8 @@
         </figure>
         <nav>
             <ul>
-                <li v-for="link in links" :key="link.text" :class="{ 'active': link.current }">
-                    <a :href="link.url">{{ link.text }}</a>
+                <li >
+                    <a :href="">Home</a>
                 </li>
             </ul>
         </nav>
