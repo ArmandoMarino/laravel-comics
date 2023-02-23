@@ -1,3 +1,7 @@
+@php
+  $links = config('menu'); 
+@endphp
+
 <header class="container">
     <figure id="logo-header">
         <a href="#">
@@ -6,16 +10,12 @@
     </figure>
     <nav>
         <ul>
+            @foreach ($links as $link)
             <li>
-                <a :href="">Home</a>
-                <a :href="">Home</a>
-                <a :href="">ciao</a>
-                <a :href="">Home</a>
-                <a :href="">Home</a>
-                <a :href="">Home</a>
-                <a :href="">ciao</a>
-                <a :href="">Home</a>
+                <a :href="{{ route($link['route_name'])}}">{{$link['text']}}</a>
             </li>
+            @endforeach
+
         </ul>
     </nav>
 </header>
