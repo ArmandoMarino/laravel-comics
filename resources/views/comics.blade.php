@@ -4,5 +4,15 @@
 
 {{-- HERO INCLUDE --}}
 @section('content')
-@include('includes.hero')
+<!-- BLACKBOARD PRODUCTS LIST -->
+<section id="contents-space">
+    <div class="blackboard">
+        @foreach ($comics as $comic)
+        <div class="product-card">
+            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+            <p>{{ $comic['title'] }}</p>
+        </div>
+        @endforeach
+    </div>
+</section>
 @endsection
