@@ -16,7 +16,6 @@
 
         <main class="my-4">
             @yield('content')
-            @include('includes.hero')
         </main>
 
     @include('includes.footer')
