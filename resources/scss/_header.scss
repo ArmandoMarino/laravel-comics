@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #logo-header {
+        padding: 1rem;
+    }
+
+    nav {
+        flex-basis: 25%;
+        width: 100%;
+    }
+}
