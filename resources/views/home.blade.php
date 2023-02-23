@@ -13,7 +13,7 @@
     <header class="container">
         <figure id="logo-header">
             <a href="#">
-                <img src="{{ asset('images/dc-logo.png') }}" alt="DC_Logo">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC_Logo">
             </a>
         </figure>
         <nav>
